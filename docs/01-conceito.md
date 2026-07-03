@@ -1,4 +1,4 @@
-# Caso 01 — O conceito central: quem pergunta e quem responde
+# Caso 01 - O conceito central: quem pergunta e quem responde
 
 ## O problema de entendimento mais comum
 
@@ -22,12 +22,12 @@ No monitoramento ativo, é o **Agent** quem abre a conexão até o **Server (ou 
 
 ## Por que isso importa tanto?
 
-Porque essa única diferença — quem abre a conexão — determina:
+Porque essa única diferença - quem abre a conexão - determina:
 
 1. **Qual porta você precisa liberar no firewall**, e em qual sentido.
 2. **Quem sofre com a latência de rede** quando ela existe.
 3. **Como o sistema escala** quando você tem centenas ou milhares de hosts.
-4. **O que aparece nos logs quando algo dá errado** — os erros são completamente diferentes entre os dois modos.
+4. **O que aparece nos logs quando algo dá errado** - os erros são completamente diferentes entre os dois modos.
 
 ## Um erro comum de vocabulário
 
@@ -37,5 +37,5 @@ Muita gente confunde "item passivo" com "item lento" e "item ativo" com "item r�
 
 Agora que você tem o vocabulário fixado, siga para:
 
-- [Caso 02 — Monitoramento Passivo na prática](02-passivo.md)
-- [Caso 03 — Monitoramento Ativo na prática](03-ativo.md)
+- [Caso 02 - Monitoramento Passivo na prática](02-passivo.md)
+- [Caso 03 - Monitoramento Ativo na prática](03-ativo.md)
