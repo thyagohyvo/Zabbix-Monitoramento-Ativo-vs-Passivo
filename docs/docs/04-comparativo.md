@@ -1,4 +1,4 @@
-# Caso 04 — Tabela comparativa e quando usar cada um
+# Caso 04 - Tabela comparativa e quando usar cada um
 
 ## Comparativo direto
 
@@ -9,7 +9,7 @@
 | Direção do firewall a liberar | Entrada no Agent | Entrada no Server/Proxy |
 | Parâmetro chave no `.conf` do Agent | `Server=` | `ServerActive=` e `Hostname=` |
 | Tipo de item na interface | `Zabbix agent` | `Zabbix agent (active)` |
-| Escalabilidade (muitos hosts) | Pior — sobrecarrega pollers do Server | Melhor — distribui a carga |
+| Escalabilidade (muitos hosts) | Pior - sobrecarrega pollers do Server | Melhor - distribui a carga |
 | Bom para redes restritas por NAT/saída | Não | Sim |
 | Resiliência a queda momentânea de rede | Baixa (a coleta simplesmente falha) | Alta (Agent guarda em buffer) |
 | Controle central rígido do timing | Sim | Parcial |
@@ -23,9 +23,9 @@
 
 ## Não existe "melhor" absoluto
 
-Essa é a armadilha mental mais comum: procurar qual dos dois é "o certo". Não é uma questão de qual é superior — é uma questão de **qual direção de conexão faz sentido na sua topologia de rede e no seu volume de hosts**. Volte ao [Caso 01](01-conceito.md) sempre que essa dúvida voltar.
+Essa é a armadilha mental mais comum: procurar qual dos dois é "o certo". Não é uma questão de qual é superior - é uma questão de **qual direção de conexão faz sentido na sua topologia de rede e no seu volume de hosts**. Volte ao [Caso 01](01-conceito.md) sempre que essa dúvida voltar.
 
 ## Próximo passo
 
-- [Caso 05 — Erros comuns de iniciante](05-erros-comuns.md)
-- [Caso 06 — Laboratório prático guiado](06-lab-pratico.md)
+- [Caso 05 - Erros comuns de iniciante](05-erros-comuns.md)
+- [Caso 06 - Laboratório prático guiado](06-lab-pratico.md)
