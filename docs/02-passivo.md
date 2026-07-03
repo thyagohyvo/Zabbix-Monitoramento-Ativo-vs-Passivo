@@ -1,4 +1,4 @@
-# Caso 02 — Monitoramento Passivo na prática
+# Caso 02 - Monitoramento Passivo na prática
 
 ## Como funciona, passo a passo
 
@@ -43,9 +43,9 @@ Isso significa: **o firewall do host monitorado precisa liberar entrada na porta
 
 ## Limitação a ter em mente
 
-Cada item passivo gera uma conexão TCP separada. Com **muitos hosts e muitos itens**, isso pode sobrecarregar os "pollers" do Zabbix Server (processo responsável por fazer essas perguntas). É por isso que ambientes grandes tendem a usar mais monitoramento ativo — assunto do próximo caso.
+Cada item passivo gera uma conexão TCP separada. Com **muitos hosts e muitos itens**, isso pode sobrecarregar os "pollers" do Zabbix Server (processo responsável por fazer essas perguntas). É por isso que ambientes grandes tendem a usar mais monitoramento ativo - assunto do próximo caso.
 
 ## Próximo passo
 
-- [Caso 03 — Monitoramento Ativo na prática](03-ativo.md)
-- [Caso 05 — Erros comuns de iniciante](05-erros-comuns.md)
+- [Caso 03 - Monitoramento Ativo na prática](03-ativo.md)
+- [Caso 05 - Erros comuns de iniciante](05-erros-comuns.md)
