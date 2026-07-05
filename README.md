@@ -10,7 +10,7 @@ Se você já leu a documentação oficial do Zabbix sobre isso e saiu mais confu
 
 ---
 
-## 📋 Índice
+# 📋 Índice
 
 | # | Tópico | Arquivo |
 |---|--------|---------|
