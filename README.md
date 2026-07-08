@@ -6,7 +6,7 @@ Guia para quem está começando (ou travado) entendendo a diferença entre **che
 
 ## 🎯 Objetivo deste repositório
 
-Se você já leu a documentação oficial do Zabbix sobre isso e saiu mais confuso do que entrou, esse repositório é pra você. Aqui a explicação é feita com analogias, exemplos de configuração reais e diagramas simples — sem assumir que você já entende o "zabbix-ês".
+Se você já leu a documentação oficial do Zabbix sobre isso e saiu mais confuso do que entrou, esse repositório é pra você. Aqui a explicação é feita com analogias, exemplos de configuração reais e diagramas simples - sem assumir que você já entende o "zabbix-ês".
 
 ---
 
@@ -25,7 +25,7 @@ Se você já leu a documentação oficial do Zabbix sobre isso e saiu mais confu
 
 ## 🧠 A analogia que resolve 80% da confusão
 
-Antes de qualquer configuração, entenda isto — o resto do repositório é só detalhamento disso aqui:
+Antes de qualquer configuração, entenda isto - o resto do repositório é só detalhamento disso aqui:
 
 > **Passivo** = o Zabbix Server **liga** para o Agent e pergunta "qual o valor disso agora?"
 > **Ativo** = o Agent **liga** para o Zabbix Server (ou Proxy) e avisa "aqui está o valor disso".
@@ -52,7 +52,7 @@ ATIVO
 
 Se você está travado, siga essa ordem:
 
-1. Leia o **[Caso 01](docs/01-conceito.md)** primeiro, mesmo que já ache que entende — ele estabelece o vocabulário usado no resto do guia.
+1. Leia o **[Caso 01](docs/01-conceito.md)** primeiro, mesmo que já ache que entende - ele estabelece o vocabulário usado no resto do guia.
 2. Vá para **Passivo** e **Ativo** separadamente. Não tente entender os dois ao mesmo tempo.
 3. Só depois de entender cada um isoladamente, leia o **comparativo**.
 4. Se algo já deu errado na sua configuração, pule direto para **erros comuns**.
